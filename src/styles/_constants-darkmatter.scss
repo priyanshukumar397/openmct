@@ -124,7 +124,7 @@ $shdwBtns: rgba(black, 0.2) 0 1px 2px;
 $shdwBtnsOverlay: rgba(black, 0.5) 0 1px 5px;
 
 // Base colors
-$colorBodyBg: #17171B;
+$colorBodyBg: #1a1a1f;
 $colorBodyBgSubtle: pullForward($colorBodyBg, 5%);
 $colorBodyBgSubtleHov: pullForward($colorBodyBg, 10%);
 $colorBodyFg: #aaaaaa;
@@ -372,7 +372,7 @@ $formInputH: 22px;
 $formRowCtrlsH: 14px;
 
 // Inspector
-$colorInspectorBg: pullForward($colorBodyBg, 5%);
+$colorInspectorBg: $colorBodyBg;
 $colorInspectorFg: $colorBodyFg;
 $colorInspectorPropName: $colorBodyFg;
 $colorInspectorPropVal: pullForward($colorInspectorFg, 15%);
@@ -380,7 +380,7 @@ $colorInspectorSectionHeaderBg: rgba($colorBodyBg, .75);
 $colorInspectorSectionHeaderFg: pullForward($colorInspectorBg, 40%);
 
 // Tabs
-$colorTabBg: $colorBodyBg;
+$colorTabBg: pullForward($colorBodyBg, 5%);
 $colorTabFg: $colorBodyFgEm;
 $colorTabCurrentBg: rgba($colorKey, .71);
 $colorTabCurrentFg: $colorBodyFgEm;
