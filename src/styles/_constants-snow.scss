@@ -65,7 +65,10 @@ $numericFont: $heroFont;
   background: $c;
 }
 
-@mixin telemetryView(){}
+@mixin telemetryView(){
+  border-radius: none;
+}
+
 @mixin browseFrameBorder() {}
 
 // Functions

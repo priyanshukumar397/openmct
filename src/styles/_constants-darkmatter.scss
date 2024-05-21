@@ -75,7 +75,6 @@ $numericFont: 'Chakra Petch', sans-serif;
 }
 
 @mixin telemetryView(){
-  border: 1px solid $colorBodyFg;
   border-radius: $controlCr;
 }
 
@@ -207,7 +206,7 @@ $colorPausedFg: #333;
 
 // Time Colors
 $colorTimeCommonFg: #eee;
-$colorTimeFixed: #59554c;
+$colorTimeFixed: #5e594d;
 $colorTimeFixedBg: $colorTimeFixed;
 $colorTimeFixedFg: #eee;
 $colorTimeFixedFgSubtle: #b2aa98;
@@ -230,7 +229,7 @@ $colorTimeRealtimeBtnFgMajor: #fff;
 $colorTOI: $colorBodyFg; // was $timeControllerToiLineColor
 $colorTOIHov: $colorTimeRealtime; // was $timeControllerToiLineColorHov
 $timeConductorAxisHoverFilter: brightness(1.2);
-$timeConductorActiveBg: $colorKey;
+$timeConductorActiveBg: $colorBodyBg;
 $timeConductorActivePanBg: #226074;
 
 // Browse
@@ -376,8 +375,8 @@ $colorInspectorBg: $colorBodyBg;
 $colorInspectorFg: $colorBodyFg;
 $colorInspectorPropName: $colorBodyFg;
 $colorInspectorPropVal: pullForward($colorInspectorFg, 15%);
-$colorInspectorSectionHeaderBg: rgba($colorBodyBg, .75);
-$colorInspectorSectionHeaderFg: pullForward($colorInspectorBg, 40%);
+$colorInspectorSectionHeaderBg: rgba($colorBodyBg, .85);
+$colorInspectorSectionHeaderFg: pullForward($colorInspectorBg, 80%);
 
 // Tabs
 $colorTabBg: pullForward($colorBodyBg, 5%);
@@ -452,7 +451,7 @@ $shdwItemText: none;
 $colorTabBorder: pullForward($colorBodyBg, 10%);
 $colorTabBodyBg: $colorBodyBg;
 $colorTabBodyFg: pullForward($colorBodyFg, 20%);
-$colorTabHeaderBg: #575757;
+$colorTabHeaderBg: #2e2e2e;
 $colorTabHeaderFg: $colorBodyFg;
 $colorTabHeaderBorder: $colorBodyBg;
 $colorTabGroupHeaderBg: pullForward($colorBodyBg, 5%);
@@ -485,7 +484,7 @@ $colorGaugeLimitLow: $colorGaugeLimitHigh;
 $colorGaugeNeedle: $colorGaugeBase; // Color of needle in a needle gauge.
 $transitionTimeGauge: 150ms; // CSS transition time used to smooth needle gauge and meter value transitions
 $marginGaugeMeterValue: 10%; // Margin between meter value bar and bounds edges
-$gaugeMeterValueShadow: rgba(255, 255, 255, .5);
+$gaugeMeterValueShadow: rgba(255, 255, 255, .3);
 // TODO: This is some code regarding how we can make Gauges include a border or glow. We may need to revisit this.
 // padding: 5%;
 // background: radial-gradient(circle, transparent 0%, transparent 65%, rgba(255, 255, 255,0.4) 64%, rgba(255,255,255,0) 70%)
