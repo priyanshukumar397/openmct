@@ -69,7 +69,7 @@ $numericFont: $heroFont;
 @mixin telemetryView(){
   border-radius: none;
 }
-@mixin browseFrameBorder() {}
+@mixin browseFrameBorder(){}
 
 // Functions
 @function buttonBg($c: $colorBtnBg) {
@@ -210,6 +210,7 @@ $browseSelectedBorder: 1px solid rgba($colorBodyFg, 0.4);
 $filterItemHoverFg: brightness(1.2) contrast(1.1);
 $interiorMarginObjectFrameVertical: 0px;
 $interiorMarginObjectFrameHorizontal: 3px;
+$layoutCornerSize: 0px;
 
 // Missing Items
 $filterItemMissing: brightness(0.6) grayscale(1);
