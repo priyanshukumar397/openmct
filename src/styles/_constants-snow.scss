@@ -119,6 +119,7 @@ $filterHov: hue-rotate(-10deg) brightness(0.8) contrast(2); // Tree, location it
 $filterHovSubtle: hue-rotate(-8deg) brightness(0.5) contrast(1.2);
 $colorSelectedBg: pushBack($colorKey, 40%);
 $colorSelectedFg: pullForward($colorBodyFg, 10%);
+$colorSelectedGlow: rgba($colorKey, 0);
 
 // Body constants
 $bodyBg: $colorBodyBg;
@@ -490,6 +491,7 @@ $colorItemTreeVC: $colorDisclosureCtrl;
 $colorItemTreeVCHover: $colorDisclosureCtrlHov;
 $colorItemTreeNewNode: rgba($colorBodyFg, 0.5);
 $shdwItemTreeIcon: none;
+$colorItemTreeShdw: none;
 
 // Layout frame controls
 $frameControlsColorFg: $colorClickIconButton;
@@ -525,6 +527,7 @@ $splitterCollapsedBtnColorBg: #ccc;
 $splitterCollapsedBtnColorFg: #666;
 $splitterCollapsedBtnColorBgHov: $colorKey;
 $splitterCollapsedBtnColorFgHov: $colorKeyFg;
+$splitterCollapsedBtnColorShdw: rgba($colorKeyFg, 0) 0 0 6px 1px;
 
 // Mobile
 $colorMobilePaneLeft: pullForward($colorBodyBg, 2%);
